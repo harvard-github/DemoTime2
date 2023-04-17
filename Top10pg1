@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Top Streamed Academy Acclaimed Movies</title>
+	<style>
+    
+		body {
+			font-family: Arial, sans-serif;
+			color: #333;
+			background-color: #f1f1f1;
+			margin: 0;
+			padding: 0;
+			text-align: center;
+		}
+		h1 {
+			color: #e67e22;
+			font-size: 36px;
+			margin-top: 20px;
+		}
+		h2 {
+			color: #2980b9;
+			font-size: 24px;
+			margin-top: 20px;
+		}
+		p {
+			margin-top: 10px;
+			font-size: 16px;
+		}
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: #fff;
+		}
+		.movie {
+			margin-top: 20px;
+			padding: 20px;
+			background-color: #fff;
+			box-shadow: 0px 2px 5px #ccc;
+		}
+		.movie h3 {
+			color: #2980b9;
+			font-size: 20px;
+			margin-top: 0;
+			margin-bottom: 10px;
+		}
+		.movie p {
+			margin-top: 0;
+			font-size: 14px;
+			line-height: 1.5;
+			text-align: left;
+		}
+		.movie button {
+			background-color: #e67e22;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		.movie button:hover {
+			background-color: #d35400;
+		}
+		.movie-reviews {
+			max-height: 150px;
+			overflow: auto;
+			margin-top: 10px;
+			padding: 10px;
+			background-color: #f1f1f1;
+			border-radius: 5px;
+			text-align: left;
+		}
+		.movie-reviews p {
+			margin: 0;
+			font-size: 14px;
+			line-height: 1.5;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Top Streamed Academy Acclaimed Movies</h1>
+		<h2>Here are the top 10 Academy acclaimed movies that are currently streaming online:</h2>
+		<div class="movie">
+			<h3>Parasite</h3>
+			<p>Director: Bong Joon-ho<br>
+			Starring: Song Kang-ho, Lee Sun-kyun, Cho Yeo-jeong</p>
+			<p>Plot: Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.</p>
+			<button onclick="toggleReviews('movie1')">Show Reviews</button>
+			<div class="movie-reviews" id="movie1">
+				<p>“A masterpiece.” – The New York Times</p>
+				<p>“A work of great beauty, great feeling and great cinema.” – Los Angeles Times</p>
+				<p>“A thriller of extraordinary cunning and emotional power.” – Rolling Stone
