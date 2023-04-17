@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movie Rankings</title>
+</head>
+<body>
+	<header>
+		<h1>Movie Rankings</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#action">Action</a></li>
+			<li><a href="#comedy">Comedy</a></li>
+			<li><a href="#drama">Drama</a></li>
+			<li><a href="#horror">Horror</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section id="action">
+			<h2>Action Movies</h2>
+			<ul>
+				<li>Die Hard</li>
+				<li>The Matrix</li>
+				<li>Lethal Weapon</li>
+			</ul>
+			<form>
+				<label for="die-hard">Rate Die Hard:</label>
+				<input type="number" id="die-hard" name="die-hard" min="1" max="10">
+				<input type="submit" value="Submit">
+			</form>
+			<form>
+				<label for="matrix">Rate The Matrix:</label>
+				<input type="number" id="matrix" name="matrix" min="1" max="10">
+				<input type="submit" value="Submit">
+			</form>
+			<form>
+				<label for="lethal-weapon">Rate Lethal Weapon:</label>
+				<input type="number" id="lethal-weapon" name="lethal-weapon" min="1" max="10">
+				<input type="submit" value="Submit">
+			</form>
+		</section>
+		<section id="comedy">
+			<h2>Comedy Movies</h2>
+			<ul>
+				<li>Superbad</li>
+				<li>Bridesmaids</li>
+				<li>The Hangover</li>
+			</ul>
+			<form>
+				<label for="superbad">Rate Superbad:</label>
+				<input type="number" id="superbad" name="superbad" min="1" max="10">
+				<input type="submit" value="Submit">
+			</form>
+			<form>
+				<label for="bridesmaids">Rate Bridesmaids:</label>
+				<input type="number" id="bridesmaids" name="bridesmaids" min="1" max="10">
+				<input type="submit" value="Submit">
+			</form>
+			<form>
+				<label for="hangover">Rate The Hangover:</label>
+				<input type="number" id="hangover" name="hangover" min="1" max="10">
+				<input type="submit" value="Submit">
+			</form>
+		</section>
+		<section id="drama">
+			<h2>Drama Movies</h2>
+			<ul>
+				<li>The Godfather</li>
+				<li>Forrest Gump</li>
+				<li>The Shawshank Redemption</li>
+			</ul>
+			<form>
+				<label for="godfather">Rate The Godfather:</label>
+				<input type="number" id="godfather" name="godfather" min="1" max="10">
+				<input type="submit" value="Submit">
+			</form>
+			<form>
+				<label for="forrest-gump">Rate Forrest Gump:</label>
+				
