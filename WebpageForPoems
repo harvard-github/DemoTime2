@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Robert Frost Biography</title>
+	<style>
+		body {
+			background-color: white;
+			color: gold;
+			font-family: "Times New Roman", serif;
+			text-align: center;
+		}
+		h1 {
+			font-size: 36px;
+			margin-bottom: 20px;
+		}
+		h2 {
+			font-size: 24px;
+			margin-top: 40px;
+			margin-bottom: 10px;
+		}
+		p {
+			margin-bottom: 20px;
+			line-height: 1.5;
+			text-align: justify;
+			margin-left: 100px;
+			margin-right: 100px;
+		}
+		ol {
+			text-align: left;
+			margin-left: 200px;
+			margin-right: 200px;
+			font-size: 18px;
+			line-height: 1.5;
+		}
+	</style>
+</head>
+<body>
+	<h1>Robert Frost</h1>
+	<p>Robert Frost was an American poet who lived from 1874 to 1963. He is one of the most famous and critically acclaimed poets of the 20th century.</p>
+	<h2>Top 10 Poems of All Time</h2>
+	<ol>
+		<li>The Road Not Taken</li>
+		<li>Stopping by Woods on a Snowy Evening</li>
+		<li>Fire and Ice</li>
+		<li>Birches</li>
+		<li>Mending Wall</li>
+		<li>The Death of the Hired Man</li>
+		<li>Acquainted with the Night</li>
+		<li>Out, Out-</li>
+		<li>Design</li>
+		<li>After Apple-Picking</li>
+	</ol>
+</body>
+</html>
